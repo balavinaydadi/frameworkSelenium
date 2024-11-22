@@ -29,6 +29,30 @@ public class OpeningFlipkart {
 	
 		
 	}
+	@Test
+	void login2() {
+		
+		
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.flipkart.com/");
+		Thread.onSpinWait();
+		
+	
+		
+	}
+	@Test
+	void login22() {
+		
+		
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.flipkart.com/");
+		Thread.onSpinWait();
+		
+	
+		
+	}
 	@AfterTest
 	void close() {
 		
