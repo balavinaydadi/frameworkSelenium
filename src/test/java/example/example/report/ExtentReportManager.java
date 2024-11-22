@@ -28,6 +28,7 @@ public class ExtentReportManager {
 	 * @return the extent reports
 	 */
 	public static ExtentReports getExtentReports() {
+		
 		if (extentReports == null) {
 			extentReports = new ExtentReports(Constants.REPORT_DIRECTORY);
 			extentReports.assignProject(Constants.PROJECT_NAME);
