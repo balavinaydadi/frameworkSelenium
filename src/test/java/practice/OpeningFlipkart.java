@@ -27,6 +27,16 @@ public class OpeningFlipkart {
 		Thread.onSpinWait();
 		
 	}
+	@Test(priority=1)
+void login1() {
+		
+		
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.flipkart.com/");
+		Thread.onSpinWait();
+		
+	}
 	@AfterTest
 	void close() {
 		
