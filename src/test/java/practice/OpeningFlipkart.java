@@ -26,6 +26,8 @@ public class OpeningFlipkart {
 		driver.get("https://www.flipkart.com/");
 		Thread.onSpinWait();
 		
+	
+		
 	}
 	@Test(priority=1)
 void login1() {
